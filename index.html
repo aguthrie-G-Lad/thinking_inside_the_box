@@ -58,13 +58,13 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 /* Map menu overlay */
 #menu {
   position:absolute;
-  top:60px; 
+  top:50px; /* below the hamburger icon */
   left:10px;
   background: rgba(255,255,255,0.85); 
   padding:10px;
   z-index:2;
   font-family: sans-serif;
-  max-height: calc(100% - 70px);
+  max-height: calc(100% - 60px);
   overflow-y: auto;
   border-radius:8px;
   box-shadow:0 2px 6px rgba(0,0,0,0.3);
@@ -76,7 +76,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 }
 #menu-toggle {
   position:absolute;
-  top:60px;
+  top:10px; /* align with top of screen */
   left:10px;
   z-index:3;
   background:#fff;
@@ -193,7 +193,6 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     <div id="method-checkboxes"></div>
     <h4>Survey Time</h4>
     <div id="time-checkboxes"></div>
-    <button style="margin-top:10px;" onclick="toggleMenu()">Close</button>
   </div>
 </div>
 
