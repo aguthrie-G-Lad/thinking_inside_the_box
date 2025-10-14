@@ -71,8 +71,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 /* Map menu overlay */
 #menu {
   position:absolute;
-  /* Top is set to 100px on mobile to clear the toggle button, and set to 10px on desktop via media query */
-  top:100px; 
+  top:100px; /* Positioned below toggle on mobile */
   left:10px;
   background: rgba(255,255,255,0.85); 
   padding:10px;
@@ -92,7 +91,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 /* Hamburger Menu Position - 10px from map top/left */
 #menu-toggle {
   position:absolute;
-  top: 60px; /* Correctly 10px below the 50px fixed tabs */
+  top: 60px; /* 10px below the 50px fixed tabs */
   left:10px;
   z-index:10; /* Ensures it is always on top of the menu */
   background:#fff;
@@ -106,9 +105,17 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 
 /* Responsive adjustments */
 @media (min-width:601px){
-  #menu-toggle { display:none; }
-  /* Menu visibility and positioning on larger screens */
+  /* FIX 1: Keep the menu toggle visible on desktop */
+  /* #menu-toggle { display:none; } */
+  
+  /* Menu positioning on larger screens: Visible and near the top */
   #menu { transform: translateX(0); top: 10px; } 
+
+  /* Ensure menu starts hidden on desktop, just like mobile, if the toggle is used */
+  #menu.hidden {
+    transform: translateX(-120%);
+    opacity:0;
+  }
 }
 @media (max-width:600px){
   .main-photo img { width:80%; max-width:200px; }
@@ -140,8 +147,8 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     <div class="status">Conservation Status: Conservation Dependent (WA)</div>
     <div class="main-photo"><img src="RTP.png" alt="Red-tailed Phascogale"></div>
     <div class="images-row">
-      <img src="RTP_MAP.png" alt="Red-tailed Phascogale distribution map">
       <img src="RTP_SIZE.png" alt="Red-tailed Phascogale size comparison">
+      <img src="RTP_MAP.png" alt="Red-tailed Phascogale distribution map">
     </div>
     <div class="description">
       The red-tailed phascogale (Kenngoor in Noongar language) is a small, arboreal marsupial endemic to the semi-arid woodlands of Western Australia.
@@ -155,8 +162,8 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     <div class="status">Conservation Status: Conservation Dependent (WA)</div>
     <div class="main-photo"><img src="BTP.png" alt="Brush-tailed Phascogale"></div>
     <div class="images-row">
-      <img src="BTP_MAP.png" alt="Brush-tailed Phascogale distribution map">
       <img src="BTP_SIZE.png" alt="Brush-tailed Phascogale size comparison">
+      <img src="BTP_MAP.png" alt="Brush-tailed Phascogale distribution map">
     </div>
     <div class="description">
       The brush-tailed phascogale (Ballawara in Noongar language; subspecies wambenger) inhabits forests and woodlands of southwestern Australia.
@@ -170,8 +177,8 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     <div class="status">Conservation Status: Least Concern</div>
     <div class="main-photo"><img src="ANT.png" alt="Yellow-footed Antechinus"></div>
     <div class="images-row">
-      <img src="ANT_MAP.png" alt="Yellow-footed Antechinus distribution map">
       <img src="ANT_SIZE.png" alt="Yellow-footed Antechinus size comparison">
+      <img src="ANT_MAP.png" alt="Yellow-footed Antechinus distribution map">
     </div>
     <div class="description">
       The yellow-footed antechinus (Mardo in Noongar language; subspecies leucogaster) inhabits forests and woodlands of southwestern Australia. 
@@ -185,8 +192,8 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     <div class="status">Conservation Status: Least Concern</div>
     <div class="main-photo"><img src="PYG.png" alt="Western Pygmy Possum"></div>
     <div class="images-row">
-      <img src="PYG_MAP.png" alt="Western Pygmy Possum distribution map">
       <img src="PYG_SIZE.png" alt="Western Pygmy Possum size comparison">
+      <img src="PYG_MAP.png" alt="Western Pygmy Possum distribution map">
     </div>
     <div class="description">
       The western pygmy possum (Mandarda in Noongar language) is a tiny, nocturnal nectar- and pollen-feeding marsupial found across southern WA. 
@@ -226,7 +233,6 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     document.querySelectorAll('.main-tabs button').forEach(btn=>btn.classList.remove('active'));
     event.target.classList.add('active');
 
-    // IMPORTANT: Call map.resize() when the map section becomes visible
     if(section === 'map'){
         setTimeout(() => { 
             map.resize();
@@ -243,7 +249,9 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
   }
 
   // Map menu toggle
-  function toggleMenu(){ document.getElementById('menu').classList.toggle('hidden'); }
+  function toggleMenu(){ 
+    document.getElementById('menu').classList.toggle('hidden'); 
+  }
 
   // Mapbox
   mapboxgl.accessToken = 'pk.eyJ1IjoiYXVzc2llMTMzIiwiYSI6ImNtZ2VwODMyZjB3M2syaW83cGxpYjZ0djgifQ.dDK7fqAqSsIU7qSJ9AHviw';
@@ -255,6 +263,9 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
   });
 
   map.on('load', ()=>{
+    // Hide the menu by default on load, allowing the toggle to open it on all screens
+    document.getElementById('menu').classList.add('hidden'); 
+    
     const speciesList=['RTP','BTP','ANT','PYG'];
     const methodList=['eDNA','Visual'];
     const timeList=['Nov-23','Apr-24','Dec-24','May-25'];
@@ -296,7 +307,6 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     }
   });
 
-  // Ensure map resizes on orientation change - This is still useful
   window.addEventListener('resize', () => { map.resize(); });
 </script>
 </body>
