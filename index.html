@@ -33,8 +33,23 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 }
 
 /* Sections */
-.section { display: none; padding-top:60px; } /* padding for fixed tabs */
+.section { display: none; } /* Base state */
 .section.active { display: block; }
+
+/* FIX 1: Map Section Positioning */
+#info-section { padding-top: 60px; } /* Only the info section needs top padding for fixed tabs */
+
+#map-section { 
+  position: absolute; /* Change from relative for full screen */
+  top: 50px; /* Below the 50px fixed main-tabs */
+  left: 0;
+  right: 0;
+  bottom: 0;
+} 
+#map { 
+  width: 100%; 
+  height: 100%; 
+}
 
 /* Species Info */
 .tabs { display:flex; justify-content:center; border-bottom:2px solid #ccc; flex-wrap:wrap; margin-bottom:20px; }
@@ -51,14 +66,10 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 .images-row { display:flex; justify-content:space-around; align-items:center; margin:20px 0; }
 .images-row img { width:45%; max-width:150px; height:auto; }
 
-/* Map Section */
-#map-section { position: relative; height: calc(var(--vh, 1vh) * 100 - 50px); } /* fullscreen minus tabs */
-#map { width: 100%; height: 100%; }
-
 /* Map menu overlay */
 #menu {
   position:absolute;
-  top:0;
+  top:0; /* Positioned relative to map-section which starts at 50px */
   left:10px;
   background: rgba(255,255,255,0.85); 
   padding:10px;
@@ -74,11 +85,13 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
   transform: translateX(-120%);
   opacity:0;
 }
+
+/* FIX 2: Hamburger Menu Position */
 #menu-toggle {
   position:absolute;
-  top:10px; /* spacing same as left margin */
+  top: 60px; /* Positioned 10px below the 50px main-tabs */
   left:10px;
-  z-index:3;
+  z-index:4; /* Higher z-index to ensure it's above the map and menu */
   background:#fff;
   border:none;
   font-size:24px; 
@@ -91,7 +104,8 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 /* Responsive adjustments */
 @media (min-width:601px){
   #menu-toggle { display:none; }
-  #menu { transform: translateX(0); }
+  /* Menu should be visible on larger screens, relative to the map-section */
+  #menu { transform: translateX(0); top: 10px; } 
 }
 @media (max-width:600px){
   .main-photo img { width:80%; max-width:200px; }
@@ -104,13 +118,11 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 </head>
 <body>
 
-<!-- Top-level tabs -->
 <div class="main-tabs">
   <button class="active" onclick="showSection('info', event)">Species Info</button>
   <button onclick="showSection('map', event)">Interactive Map</button>
 </div>
 
-<!-- Species Info Section -->
 <div id="info-section" class="section active">
   <div class="tabs">
     <div class="tab" style="color:#E56E5E;" onclick="showTab(0)">Red-tailed Phascogale</div>
@@ -119,7 +131,6 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     <div class="tab" style="color:#EE9A12;" onclick="showTab(3)">Western Pygmy Possum</div>
   </div>
 
-  <!-- Content for each species -->
   <div id="content0" class="content active">
     <div class="species-name" style="color:#E56E5E;">Red-tailed Phascogale</div>
     <div class="sci-name" style="color:#E56E5E;">Phascogale calura</div>
@@ -181,7 +192,6 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
   </div>
 </div>
 
-<!-- Map Section -->
 <div id="map-section" class="section">
   <button id="menu-toggle" onclick="toggleMenu()">&#9776;</button>
   <div id="map"></div>
@@ -197,7 +207,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 
 <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
 <script>
-  // Fix mobile vh
+  // Fix mobile vh - This is less critical with absolute positioning but good practice
   function setVh() {
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
@@ -207,10 +217,19 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 
   // Section toggle
   function showSection(section, event){
-    document.getElementById('info-section').style.display = (section==='info')?'block':'none';
-    document.getElementById('map-section').style.display = (section==='map')?'block':'none';
+    // Instead of style.display, we use class toggle for sections now
+    document.getElementById('info-section').classList.toggle('active', section==='info');
+    document.getElementById('map-section').classList.toggle('active', section==='map');
+    
     document.querySelectorAll('.main-tabs button').forEach(btn=>btn.classList.remove('active'));
     event.target.classList.add('active');
+
+    // IMPORTANT: Call map.resize() when the map section becomes visible
+    if(section === 'map'){
+        setTimeout(() => { // Use a small timeout to ensure DOM transition is complete
+            map.resize();
+        }, 50);
+    }
   }
 
   // Species tabs
@@ -275,7 +294,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     }
   });
 
-  // Ensure map resizes on orientation change
+  // Ensure map resizes on orientation change - This is still useful
   window.addEventListener('resize', () => { map.resize(); });
 </script>
 </body>
