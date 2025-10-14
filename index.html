@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WA Arboreal Marsupials & Map</title>
+<link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet" />
+<style>
+html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sans-serif; background:#f7f7f7; color:#333; }
+
+/* Top-level tabs */
+.main-tabs {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  border-bottom: 2px solid #ccc;
+  height: 50px;
+  align-items: center;
+  position: fixed;
+  top:0; left:0; right:0;
+  z-index:3;
+}
+.main-tabs button {
+  padding: 14px 22px;
+  cursor: pointer;
+  font-weight: bold;
+  border: none;
+  background: none;
+  transition: 0.3s;
+}
+.main-tabs button.active {
+  border-bottom: 4px solid #333;
+}
+
+/* Sections */
+.section { display: none; padding-top:60px; } /* padding for fixed tabs */
+.section.active { display: block; }
+
+/* Species Info */
+.tabs { display:flex; justify-content:center; border-bottom:2px solid #ccc; flex-wrap:wrap; margin-bottom:20px; }
+.tab { padding: 12px 18px; cursor:pointer; font-weight:bold; }
+.tab.active { border-bottom:4px solid currentColor; }
+.content { display:none; max-width:800px; margin:0 auto; background:#fff; padding:20px; border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1); }
+.content.active { display:block; }
+.species-name { font-size:1.6em; font-weight:bold; text-align:center; margin-bottom:6px; }
+.sci-name { font-style:italic; font-size:1.2em; text-align:center; }
+.status { font-weight:bold; text-align:center; margin-top:10px; }
+.description { margin-top:15px; line-height:1.6; text-align:justify; }
+.main-photo { text-align:center; margin:20px 0; }
+.main-photo img { width:60%; max-width:300px; height:auto; }
+.images-row { display:flex; justify-content:space-around; align-items:center; margin:20px 0; }
+.images-row img { width:45%; max-width:150px; height:auto; margin:0 5px; }
+
+/* Map Section */
+#map-section { position: relative; height: calc(100vh - 50px); }
+#map { width: 100%; height: 100%; }
+
+/* Map menu overlay */
+#menu {
+  position:absolute;
+  top:60px; 
+  left:10px;
+  background: rgba(255,255,255,0.85); 
+  padding:10px;
+  z-index:2;
+  font-family: sans-serif;
+  max-height: calc(100% - 70px);
+  overflow-y: auto;
+  border-radius:8px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+#menu.hidden {
+  transform: translateX(-120%);
+  opacity:0;
+}
+#menu-toggle {
+  position:absolute;
+  top:60px;
+  left:10px;
+  z-index:3;
+  background:#fff;
+  border:none;
+  font-size:24px; 
+  padding:6px 10px;
+  border-radius:6px;
+  cursor:pointer;
+  box-shadow:0 2px 6px rgba(0,0,0,0.3);
+}
+
+/* Responsive adjustments */
+@media (min-width:601px){
+  #menu-toggle { display:none; }
+  #menu { transform: translateX(0); }
+}
+@media (max-width:600px){
+  .main-photo img { width:80%; max-width:200px; }
+  .images-row img { width:45%; max-width:120px; }
+  .tabs { flex-direction: column; align-items: stretch; }
+  .tab { text-align:center; border-bottom:1px solid #ccc; }
+  .tab.active { border-bottom:4px solid currentColor; }
+  #map-section { height: calc(100vh - 50px); }
+}
+</style>
+</head>
+<body>
+
+<!-- Top-level toggle -->
+<div class="main-tabs">
+  <button class="active" onclick="showSection('info', event)">Species Info</button>
+  <button onclick="showSection('map', event)">Interactive Map</button>
+</div>
+
+<!-- Species Info Section -->
+<div id="info-section" class="section active">
+  <div class="tabs">
+    <div class="tab" style="color:#E56E5E;" onclick="showTab(0)">Red-tailed Phascogale</div>
+    <div class="tab" style="color:#2E748A;" onclick="showTab(1)">Brush-tailed Phascogale</div>
+    <div class="tab" style="color:#424258;" onclick="showTab(2)">Yellow-footed Antechinus</div>
+    <div class="tab" style="color:#EE9A12;" onclick="showTab(3)">Western Pygmy Possum</div>
+  </div>
+
+  <!-- Content for each species -->
+  <div id="content0" class="content active">
+    <div class="species-name" style="color:#E56E5E;">Red-tailed Phascogale</div>
+    <div class="sci-name" style="color:#E56E5E;">Phascogale calura</div>
+    <div class="status">Conservation Status: Conservation Dependent (WA)</div>
+    <div class="main-photo"><img src="RTP.png" alt="Red-tailed Phascogale"></div>
+    <div class="images-row">
+      <img src="RTP_MAP.png" alt="Red-tailed Phascogale distribution map">
+      <img src="RTP_SIZE.png" alt="Red-tailed Phascogale size comparison">
+    </div>
+    <div class="description">
+      The red-tailed phascogale (Kenngoor in Noongar language) is a small, arboreal marsupial endemic to the semi-arid woodlands of Western Australia.
+      Agile in tree canopies, it is now mostly found in predator-controlled reserves and suitable woodland habitats.
+    </div>
+  </div>
+
+  <div id="content1" class="content">
+    <div class="species-name" style="color:#2E748A;">Brush-tailed Phascogale</div>
+    <div class="sci-name" style="color:#2E748A;">Phascogale tapoatafa wambenger</div>
+    <div class="status">Conservation Status: Conservation Dependent (WA)</div>
+    <div class="main-photo"><img src="BTP.png" alt="Brush-tailed Phascogale"></div>
+    <div class="images-row">
+      <img src="BTP_MAP.png" alt="Brush-tailed Phascogale distribution map">
+      <img src="BTP_SIZE.png" alt="Brush-tailed Phascogale size comparison">
+    </div>
+    <div class="description">
+      The brush-tailed phascogale (Ballawara in Noongar language; subspecies wambenger) inhabits forests and woodlands of southwestern Australia.
+      Recognised by its black brush-like tail, it feeds on insects and small vertebrates and nests in tree hollows.
+    </div>
+  </div>
+
+  <div id="content2" class="content">
+    <div class="species-name" style="color:#424258;">Yellow-footed Antechinus</div>
+    <div class="sci-name" style="color:#424258;">Antechinus flavipes leucogaster</div>
+    <div class="status">Conservation Status: Least Concern</div>
+    <div class="main-photo"><img src="ANT.png" alt="Yellow-footed Antechinus"></div>
+    <div class="images-row">
+      <img src="ANT_MAP.png" alt="Yellow-footed Antechinus distribution map">
+      <img src="ANT_SIZE.png" alt="Yellow-footed Antechinus size comparison">
+    </div>
+    <div class="description">
+      The yellow-footed antechinus (Mardo in Noongar language; subspecies leucogaster) inhabits forests and woodlands of southwestern Australia. 
+      Energetic and mouse-sized, it is primarily insectivorous with a short breeding season.
+    </div>
+  </div>
+
+  <div id="content3" class="content">
+    <div class="species-name" style="color:#EE9A12;">Western Pygmy Possum</div>
+    <div class="sci-name" style="color:#EE9A12;">Cercartetus concinnus</div>
+    <div class="status">Conservation Status: Least Concern</div>
+    <div class="main-photo"><img src="PYG.png" alt="Western Pygmy Possum"></div>
+    <div class="images-row">
+      <img src="PYG_MAP.png" alt="Western Pygmy Possum distribution map">
+      <img src="PYG_SIZE.png" alt="Western Pygmy Possum size comparison">
+    </div>
+    <div class="description">
+      The western pygmy possum (Mandarda in Noongar language) is a tiny, nocturnal nectar- and pollen-feeding marsupial found across southern WA. 
+      It plays a key role in pollination and shelters in tree hollows or dense foliage during the day.
+    </div>
+  </div>
+</div>
+
+<!-- Map Section -->
+<div id="map-section" class="section">
+  <button id="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+  <div id="map"></div>
+  <div id="menu" class="hidden">
+    <h4>Species</h4>
+    <div id="species-checkboxes"></div>
+    <h4>Method</h4>
+    <div id="method-checkboxes"></div>
+    <h4>Survey Time</h4>
+    <div id="time-checkboxes"></div>
+    <button style="margin-top:10px;" onclick="toggleMenu()">Close</button>
+  </div>
+</div>
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+<script>
+  // Section toggle
+  function showSection(section, event){
+    document.getElementById('info-section').style.display = (section==='info')?'block':'none';
+    document.getElementById('map-section').style.display = (section==='map')?'block':'none';
+    document.querySelectorAll('.main-tabs button').forEach(btn=>btn.classList.remove('active'));
+    event.target.classList.add('active');
+  }
+
+  // Species tabs
+  function showTab(index){
+    const contents = document.querySelectorAll('.content');
+    const tabs = document.querySelectorAll('.tab');
+    contents.forEach((content,i)=> content.classList.toggle('active', i===index));
+    tabs.forEach((tab,i)=> tab.classList.toggle('active', i===index));
+  }
+
+  // Map menu toggle
+  function toggleMenu(){ document.getElementById('menu').classList.toggle('hidden'); }
+
+  // Mapbox
+  mapboxgl.accessToken = 'pk.eyJ1IjoiYXVzc2llMTMzIiwiYSI6ImNtZ2VwODMyZjB3M2syaW83cGxpYjZ0djgifQ.dDK7fqAqSsIU7qSJ9AHviw';
+  const map = new mapboxgl.Map({
+    container:'map',
+    style:'mapbox://styles/aussie133/cmget67tt000h01rb5dhg0toq',
+    center:[116.458095,-32.934493],
+    zoom:12
+  });
+
+  map.on('load', ()=>{
+    const speciesList=['RTP','BTP','ANT','PYG'];
+    const methodList=['eDNA','Visual'];
+    const timeList=['Nov-23','Apr-24','Dec-24','May-25'];
+
+    function createCheckboxes(list, containerId, onchangeFn){
+      const container=document.getElementById(containerId);
+      list.forEach(item=>{
+        const input=document.createElement('input'); input.type='checkbox'; input.id=item; input.checked=true; input.onchange=onchangeFn;
+        const label=document.createElement('label'); label.htmlFor=item; label.textContent=item;
+        container.appendChild(input); container.appendChild(label); container.appendChild(document.createElement('br'));
+      });
+    }
+    createCheckboxes(speciesList,'species-checkboxes',updateFilters);
+    createCheckboxes(methodList,'method-checkboxes',updateFilters);
+    createCheckboxes(timeList,'time-checkboxes',updateFilters);
+
+    speciesList.forEach(species=>{
+      map.on('click',species,e=>{
+        const props=e.features[0].properties;
+        new mapboxgl.Popup().setLngLat(e.lngLat)
+          .setHTML(`<strong>${props.species}</strong><br>${props.method}<br>${props.AGE}<br>${props['sample time']}`)
+          .addTo(map);
+      });
+      map.on('mouseenter',species,()=>map.getCanvas().style.cursor='pointer');
+      map.on('mouseleave',species,()=>map.getCanvas().style.cursor='');
+    });
+
+    function updateFilters(){
+      const activeSpecies = speciesList.filter(s=>document.getElementById(s).checked);
+      const activeMethods = methodList.filter(m=>document.getElementById(m).checked);
+      const activeTimes = timeList.filter(t=>document.getElementById(t).checked);
+      speciesList.forEach(species=>{
+        const visibility=activeSpecies.includes(species)?'visible':'none';
+        map.setLayoutProperty(species,'visibility',visibility);
+        if(visibility==='visible'){
+          map.setFilter(species,['all',['in',['get','method'],['literal',activeMethods]],['in',['get','sample time'],['literal',activeTimes]]]);
+        }
+      });
+    }
+  });
+</script>
+</body>
+</html>

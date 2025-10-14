@@ -1,0 +1,4917 @@
+{
+   "type": "FeatureCollection",
+   "features": [
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.477083,-32.99283 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_20",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475717,-32.992608 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_30",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556545,-32.99111 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"16",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.554338,-32.991045 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"17",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.477083,-32.99283 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_20",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475717,-32.992608 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_30",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556545,-32.99111 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"16",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.554338,-32.991045 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"17",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.460988,-32.930782 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":12,
+    "Box":"26",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.477083,-32.99283 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_20",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475717,-32.992608 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_30",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445978,-32.983807 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":26,
+    "Box":"4",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44643,-32.982838 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":26,
+    "Box":"5",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.447335,-32.984143 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":26,
+    "Box":"6",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556545,-32.99111 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"16",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.554338,-32.991045 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"17",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.460988,-32.930782 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":12,
+    "Box":"26",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.5394,-32.996158 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":30,
+    "Box":"40",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.536957,-32.995925 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":30,
+    "Box":"41",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.537852,-32.996578 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":30,
+    "Box":"42",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.477083,-32.99283 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_20",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475717,-32.992608 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_30",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.454697,-32.944025 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":16,
+    "Box":"SE15_30",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44643,-32.982838 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":26,
+    "Box":"5",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556545,-32.99111 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"16",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.466427,-32.945615 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":17,
+    "Box":"22",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.517537,-32.968597 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":25,
+    "Box":"55",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.455182,-32.964535 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":23,
+    "Box":"63",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444972,-32.922532 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"66",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463338,-32.940477 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_20",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556545,-32.99111 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"16",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.554338,-32.991045 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"17",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556243,-32.989892 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"18",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.47343,-32.95457 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":20,
+    "Box":"19",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.466427,-32.945615 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":17,
+    "Box":"22",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.467618,-32.945547 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":17,
+    "Box":"23",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.466592,-32.944738 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":17,
+    "Box":"24",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.458095,-32.934493 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":13,
+    "Box":"29",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444732,-32.929632 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":11,
+    "Box":"31",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.510968,-32.970002 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":24,
+    "Box":"38",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.452838,-32.950087 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":18,
+    "Box":"47",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.517773,-32.970562 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":25,
+    "Box":"56",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445938,-32.922253 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"64",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445083,-32.921713 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"65",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463338,-32.940477 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_20",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.464402,-32.940323 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_40",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556545,-32.99111 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"16",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.554338,-32.991045 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"17",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556243,-32.989892 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"18",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.47343,-32.95457 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":20,
+    "Box":"19",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.47472,-32.954565 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":20,
+    "Box":"20",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.473738,-32.955147 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":20,
+    "Box":"21",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.466427,-32.945615 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":17,
+    "Box":"22",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.467618,-32.945547 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":17,
+    "Box":"23",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.466592,-32.944738 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":17,
+    "Box":"24",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.517773,-32.970562 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":25,
+    "Box":"56",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.505798,-32.958582 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":21,
+    "Box":"59",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.507478,-32.959807 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":21,
+    "Box":"60",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445938,-32.922253 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"64",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445083,-32.921713 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"65",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463338,-32.940477 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_20",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.464402,-32.940323 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_40",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.429593,-32.91157 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"14",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556545,-32.99111 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"16",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.554338,-32.991045 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"17",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556243,-32.989892 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"18",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.47343,-32.95457 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":20,
+    "Box":"19",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.47472,-32.954565 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":20,
+    "Box":"20",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.473738,-32.955147 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":20,
+    "Box":"21",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.466427,-32.945615 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":17,
+    "Box":"22",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.467618,-32.945547 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":17,
+    "Box":"23",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.466592,-32.944738 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":17,
+    "Box":"24",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444732,-32.929632 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":11,
+    "Box":"31",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.452165,-32.94939 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":18,
+    "Box":"46",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.452838,-32.950087 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":18,
+    "Box":"47",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.517773,-32.970562 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":25,
+    "Box":"56",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.505798,-32.958582 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":21,
+    "Box":"59",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.507478,-32.959807 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":21,
+    "Box":"60",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445938,-32.922253 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"64",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445083,-32.921713 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"65",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463338,-32.940477 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_20",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.464402,-32.940323 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_40",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.453285,-32.94373 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":16,
+    "Box":"SE15_40",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.479367,-32.96317 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":22,
+    "Box":"9",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.457658,-32.933438 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":13,
+    "Box":"28",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.452838,-32.950087 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":18,
+    "Box":"47",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.505798,-32.958582 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":21,
+    "Box":"59",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.507478,-32.959807 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":21,
+    "Box":"60",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448992,-32.90277 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_20",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470792,-32.992677 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_20",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.471353,-32.991972 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_30",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475717,-32.992608 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_30",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.430222,-32.952835 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":19,
+    "Box":"2",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.479367,-32.96317 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":22,
+    "Box":"9",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.457658,-32.933438 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":13,
+    "Box":"28",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.452838,-32.950087 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":18,
+    "Box":"47",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.507478,-32.959807 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":21,
+    "Box":"60",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445083,-32.921713 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"65",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.477083,-32.99283 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_20",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445978,-32.983807 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":26,
+    "Box":"4",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44643,-32.982838 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":26,
+    "Box":"5",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.447335,-32.984143 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":26,
+    "Box":"6",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.479367,-32.96317 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":22,
+    "Box":"9",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.424952,-32.926477 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":8,
+    "Box":"11",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.430612,-32.912162 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"13",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.554338,-32.991045 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"17",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.460327,-32.930567 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":12,
+    "Box":"25",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.460988,-32.930782 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":12,
+    "Box":"26",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.46104,-32.930162 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":12,
+    "Box":"27",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.457658,-32.933438 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":13,
+    "Box":"28",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.537852,-32.996578 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":30,
+    "Box":"42",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.441298,-32.938653 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":14,
+    "Box":"44",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.440485,-32.939002 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":14,
+    "Box":"45",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.452838,-32.950087 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":18,
+    "Box":"47",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.35909,-32.899154 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":3,
+    "Box":"49",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.360687,-32.899172 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":3,
+    "Box":"50",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.358723,-32.896813 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":3,
+    "Box":"51",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.367237,-32.891618 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":1,
+    "Box":"54",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.517537,-32.968597 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":25,
+    "Box":"55",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448992,-32.90277 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_20",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.449467,-32.902323 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_40",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470088,-32.991735 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_40",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445083,-32.921713 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"65",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463338,-32.940477 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_20",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.464402,-32.940323 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_40",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448855,-32.92856 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_20",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448013,-32.928977 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_30",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44807,-32.927687 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_40",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448992,-32.90277 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_20",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448793,-32.902088 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_30",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.449467,-32.902323 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_40",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470792,-32.992677 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_20",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.471353,-32.991972 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_30",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470088,-32.991735 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_40",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.477083,-32.99283 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_20",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4536,-32.944743 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":16,
+    "Box":"SE15_20",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.454697,-32.944025 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":16,
+    "Box":"SE15_30",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4329892,-32.92990901 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":10,
+    "Box":"WP90_30",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4327739,-32.93066702 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":10,
+    "Box":"WP90_40",
+    "method":"eDNA",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.429593,-32.91157 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"14",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.42999,-32.910473 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"15",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.47343,-32.95457 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":20,
+    "Box":"19",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.506138,-32.959535 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":21,
+    "Box":"58",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445083,-32.921713 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"65",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463338,-32.940477 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_20",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463628,-32.939462 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_30",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.464402,-32.940323 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_40",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448855,-32.92856 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_20",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448013,-32.928977 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_30",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44807,-32.927687 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_40",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448992,-32.90277 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_20",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448793,-32.902088 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_30",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.449467,-32.902323 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_40",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470792,-32.992677 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_20",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.471353,-32.991972 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_30",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470088,-32.991735 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_40",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.477083,-32.99283 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_20",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475717,-32.992608 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_30",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4536,-32.944743 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":16,
+    "Box":"SE15_20",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4329892,-32.92990901 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":10,
+    "Box":"WP90_30",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4327739,-32.93066702 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":10,
+    "Box":"WP90_40",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.434012,-32.9032 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":4,
+    "Box":"WS05_20",
+    "method":"eDNA",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445978,-32.983807 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":26,
+    "Box":"4",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.48116,-32.963133 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":22,
+    "Box":"8",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.425202,-32.92562 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":8,
+    "Box":"10",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.430612,-32.912162 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"13",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.429593,-32.91157 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"14",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.47343,-32.95457 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":20,
+    "Box":"19",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.473738,-32.955147 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":20,
+    "Box":"21",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.441298,-32.938653 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":14,
+    "Box":"44",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.453233,-32.949078 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":18,
+    "Box":"48",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.51702,-32.969333 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":25,
+    "Box":"57",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.506138,-32.959535 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":21,
+    "Box":"58",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445083,-32.921713 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"65",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444972,-32.922532 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"66",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463628,-32.939462 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_30",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.464402,-32.940323 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_40",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448855,-32.92856 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_20",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448013,-32.928977 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_30",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44807,-32.927687 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_40",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448992,-32.90277 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_20",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448793,-32.902088 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_30",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.449467,-32.902323 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_40",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470792,-32.992677 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_20",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.471353,-32.991972 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_30",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470088,-32.991735 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_40",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.477083,-32.99283 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_20",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475717,-32.992608 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_30",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4536,-32.944743 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":16,
+    "Box":"SE15_20",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4317957,-32.93066702 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":10,
+    "Box":"WP90_20",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4329892,-32.92990901 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":10,
+    "Box":"WP90_30",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4327739,-32.93066702 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":10,
+    "Box":"WP90_40",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.434912,-32.903165 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":4,
+    "Box":"WS05_30",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4345,-32.902363 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":4,
+    "Box":"WS05_40",
+    "method":"eDNA",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.429577,-32.952475 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":19,
+    "Box":"1",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445978,-32.983807 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":26,
+    "Box":"4",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44643,-32.982838 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":26,
+    "Box":"5",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.48116,-32.963133 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":22,
+    "Box":"8",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.430612,-32.912162 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"13",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.429593,-32.91157 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"14",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.554338,-32.991045 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"17",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556243,-32.989892 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"18",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.473738,-32.955147 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":20,
+    "Box":"21",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.506138,-32.959535 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":21,
+    "Box":"58",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.455968,-32.964515 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":23,
+    "Box":"62",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445083,-32.921713 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"65",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463628,-32.939462 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_30",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.464402,-32.940323 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_40",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448855,-32.92856 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_20",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448013,-32.928977 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_30",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44807,-32.927687 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_40",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448992,-32.90277 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_20",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448793,-32.902088 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_30",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.449467,-32.902323 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_40",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470792,-32.992677 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_20",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.471353,-32.991972 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_30",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470088,-32.991735 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_40",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.477083,-32.99283 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_20",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475717,-32.992608 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_30",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4536,-32.944743 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":16,
+    "Box":"SE15_20",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4317957,-32.93066702 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":10,
+    "Box":"WP90_20",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4329892,-32.92990901 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":10,
+    "Box":"WP90_30",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.434912,-32.903165 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":4,
+    "Box":"WS05_30",
+    "method":"eDNA",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.46104,-32.930162 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":12,
+    "Box":"27",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445978,-32.983807 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":26,
+    "Box":"4",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"RTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.537852,-32.996578 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":30,
+    "Box":"42",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444972,-32.922532 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"66",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463338,-32.940477 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_20",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556545,-32.99111 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"16",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.556243,-32.989892 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":27,
+    "Box":"18",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444277,-32.930747 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":11,
+    "Box":"33",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444972,-32.922532 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"66",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463338,-32.940477 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_20",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.466427,-32.945615 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":17,
+    "Box":"22",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444972,-32.922532 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"66",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.457658,-32.933438 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":13,
+    "Box":"28",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.452838,-32.950087 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":18,
+    "Box":"47",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444972,-32.922532 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"66",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463338,-32.940477 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_20",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4329892,-32.92990901 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":10,
+    "Box":"WP90_30",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.434912,-32.903165 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":4,
+    "Box":"WS05_30",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"BTP",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.430612,-32.912162 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"13",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.479367,-32.96317 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":22,
+    "Box":"9",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.430612,-32.912162 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"13",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.455182,-32.964535 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":23,
+    "Box":"63",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444972,-32.922532 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"66",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4329892,-32.92990901 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":10,
+    "Box":"WP90_30",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.434912,-32.903165 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":4,
+    "Box":"WS05_30",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.479367,-32.96317 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":22,
+    "Box":"9",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44387,-32.894662 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":2,
+    "Box":"35",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.367862,-32.891202 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":1,
+    "Box":"52",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444972,-32.922532 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"66",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470792,-32.992677 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_20",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.471353,-32.991972 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_30",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"ANT",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.479367,-32.96317 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":22,
+    "Box":"9",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44387,-32.894662 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":2,
+    "Box":"35",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.506138,-32.959535 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":21,
+    "Box":"58",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444972,-32.922532 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"66",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463338,-32.940477 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_20",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.463628,-32.939462 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_30",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.464402,-32.940323 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_40",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448013,-32.928977 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_30",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448793,-32.902088 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_30",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470792,-32.992677 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_20",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4329892,-32.92990901 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":10,
+    "Box":"WP90_30",
+    "method":"visual",
+    "sample time":"Nov-23",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.479367,-32.96317 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":22,
+    "Box":"9",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.430612,-32.912162 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"13",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.506138,-32.959535 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":21,
+    "Box":"58",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.455182,-32.964535 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":23,
+    "Box":"63",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.444972,-32.922532 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":7,
+    "Box":"66",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44807,-32.927687 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_40",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470792,-32.992677 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_20",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.434912,-32.903165 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":4,
+    "Box":"WS05_30",
+    "method":"visual",
+    "sample time":"Apr-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.479367,-32.96317 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":22,
+    "Box":"9",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.430612,-32.912162 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"13",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.429593,-32.91157 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"14",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.46104,-32.930162 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":12,
+    "Box":"27",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44387,-32.894662 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":2,
+    "Box":"35",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.455968,-32.964515 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":23,
+    "Box":"62",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.464402,-32.940323 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":15,
+    "Box":"EP93_40",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448013,-32.928977 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_30",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.44807,-32.927687 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_40",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.449467,-32.902323 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_40",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.470792,-32.992677 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":28,
+    "Box":"SE07_20",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.477083,-32.99283 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_20",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.475342,-32.991737 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_40",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.434912,-32.903165 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":4,
+    "Box":"WS05_30",
+    "method":"visual",
+    "sample time":"Dec-24",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.445978,-32.983807 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":26,
+    "Box":"4",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.430612,-32.912162 ]
+    },
+    "properties": {
+    "AGE":"1990s",
+    "N to S":6,
+    "Box":"13",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.367862,-32.891202 ]
+    },
+    "properties": {
+    "AGE":"Reference",
+    "N to S":1,
+    "Box":"52",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448855,-32.92856 ]
+    },
+    "properties": {
+    "AGE":"1980s",
+    "N to S":9,
+    "Box":"NP87_20",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.448793,-32.902088 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":5,
+    "Box":"NSS02_30",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.477083,-32.99283 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":29,
+    "Box":"SE11_20",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.4536,-32.944743 ]
+    },
+    "properties": {
+    "AGE":"2010s",
+    "N to S":16,
+    "Box":"SE15_20",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  },
+  {
+    "type": "Feature",
+    "geometry": {
+       "type": "Point",
+       "coordinates":  [ 116.434912,-32.903165 ]
+    },
+    "properties": {
+    "AGE":"2000s",
+    "N to S":4,
+    "Box":"WS05_30",
+    "method":"visual",
+    "sample time":"May-25",
+    "species":"PYG",
+    "detection":"1"
+    }
+  }
+]
+}
