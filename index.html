@@ -72,7 +72,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 #menu {
   position:absolute;
   /* FIX: Ensure menu starts clearly below the toggle button on all screens */
-  top:70px; 
+  top:62px; 
   left:10px;
   background: rgba(255,255,255,0.85); 
   padding:10px;
@@ -110,7 +110,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
   /* #menu-toggle { display:none; } */
   
   /* FIX: Menu positioning on larger screens: Visible and starts 10px below the toggle button */
-  #menu { transform: translateX(0); top: 70px; } 
+  #menu { transform: translateX(0); top: 62px; } 
 
   /* Ensure menu starts hidden on desktop, just like mobile, if the toggle is used */
   #menu.hidden {
@@ -268,7 +268,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     document.getElementById('menu').classList.add('hidden'); 
     
     const speciesList=['RTP','BTP','ANT','PYG'];
-    const methodList=['eDNA','Visual'];
+    const methodList=['eDNA','visual'];
     const timeList=['Nov-23','Apr-24','Dec-24','May-25'];
 
     function createCheckboxes(list, containerId, onchangeFn){
@@ -312,6 +312,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 </script>
 </body>
 </html>
+
 
 
 
