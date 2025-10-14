@@ -113,4 +113,188 @@ html, body {
 
 <div id="info-section" class="section active">
   <div class="tabs">
+    <div class="tab" style="color:#E56E5E;" onclick="showTab(0)">Red-tailed Phascogale</div>
+    <div class="tab" style="color:#2E748A;" onclick="showTab(1)">Brush-tailed Phascogale</div>
+    <div class="tab" style="color:#424258;" onclick="showTab(2)">Yellow-footed Antechinus</div>
+    <div class="tab" style="color:#EE9A12;" onclick="showTab(3)">Western Pygmy Possum</div>
+  </div>
 
+  <div id="content0" class="content active">
+    <div class="species-name" style="color:#E56E5E;">Red-tailed Phascogale</div>
+    <div class="sci-name" style="color:#E56E5E;">Phascogale calura</div>
+    <div class="status">Conservation Status: Conservation Dependent (WA)</div>
+    <div class="main-photo"><img src="RTP.png" alt="Red-tailed Phascogale"></div>
+    <div class="images-row">
+      <img src="RTP_SIZE.png" alt="Red-tailed Phascogale size comparison">
+      <img src="RTP_MAP.png" alt="Red-tailed Phascogale distribution map">
+    </div>
+    <div class="description">
+      The red-tailed phascogale (Kenngoor in Noongar language) is a small, arboreal marsupial endemic to the semi-arid woodlands of Western Australia.
+      Agile in tree canopies, it is now mostly found in predator-controlled reserves and suitable woodland habitats.
+    </div>
+  </div>
+
+  <div id="content1" class="content">
+    <div class="species-name" style="color:#2E748A;">Brush-tailed Phascogale</div>
+    <div class="sci-name" style="color:#2E748A;">Phascogale tapoatafa wambenger</div>
+    <div class="status">Conservation Status: Conservation Dependent (WA)</div>
+    <div class="main-photo"><img src="BTP.png" alt="Brush-tailed Phascogale"></div>
+    <div class="images-row">
+      <img src="BTP_SIZE.png" alt="Brush-tailed Phascogale size comparison">
+      <img src="BTP_MAP.png" alt="Brush-tailed Phascogale distribution map">
+    </div>
+    <div class="description">
+      The brush-tailed phascogale (Ballawara in Noongar language; subspecies wambenger) inhabits forests and woodlands of southwestern Australia.
+      Recognised by its black brush-like tail, it feeds on insects and small vertebrates and nests in tree hollows.
+    </div>
+  </div>
+
+  <div id="content2" class="content">
+    <div class="species-name" style="color:#424258;">Yellow-footed Antechinus</div>
+    <div class="sci-name" style="color:#424258;">Antechinus flavipes leucogaster</div>
+    <div class="status">Conservation Status: Least Concern</div>
+    <div class="main-photo"><img src="ANT.png" alt="Yellow-footed Antechinus"></div>
+    <div class="images-row">
+      <img src="ANT_SIZE.png" alt="Yellow-footed Antechinus size comparison">
+      <img src="ANT_MAP.png" alt="Yellow-footed Antechinus distribution map">
+    </div>
+    <div class="description">
+      The yellow-footed antechinus (Mardo in Noongar language; subspecies leucogaster) inhabits forests and woodlands of southwestern Australia. 
+      Energetic and mouse-sized, it is primarily insectivorous with a short breeding season.
+    </div>
+  </div>
+
+  <div id="content3" class="content">
+    <div class="species-name" style="color:#EE9A12;">Western Pygmy Possum</div>
+    <div class="sci-name" style="color:#EE9A12;">Cercartetus concinnus</div>
+    <div class="status">Conservation Status: Least Concern</div>
+    <div class="main-photo"><img src="PYG.png" alt="Western Pygmy Possum"></div>
+    <div class="images-row">
+      <img src="PYG_SIZE.png" alt="Western Pygmy Possum size comparison">
+      <img src="PYG_MAP.png" alt="Western Pygmy Possum distribution map">
+    </div>
+    <div class="description">
+      The western pygmy possum (Mandarda in Noongar language) is a tiny, nocturnal nectar- and pollen-feeding marsupial found across southern WA. 
+      It plays a key role in pollination and shelters in tree hollows or dense foliage during the day.
+    </div>
+  </div>
+</div>
+
+<div id="map-section" class="section">
+  <button id="menu-toggle" onclick="toggleMenu()">&#9776;</button>
+  <div id="map"></div>
+  <div id="menu" class="hidden">
+    <h4>Species</h4>
+    <div id="species-checkboxes"></div>
+    <h4>Method</h4>
+    <div id="method-checkboxes"></div>
+    <h4>Survey Time</h4>
+    <div id="time-checkboxes"></div>
+  </div>
+</div>
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+<script>
+  // Simplified and consolidated JavaScript functions
+
+  // 1. Initial Mapbox Setup
+  const MAPBOX_ACCESS_TOKEN = 'pk.eyJ1IjoiYXVzc2llMTMzIiwiYSI6ImNtZ2VwODMyZjB3M2syaW83cGxpYjZ0djgifQ.dDK7fqAqSsIU7qSJ9AHviw';
+  mapboxgl.accessToken = MAPBOX_ACCESS_TOKEN;
+  
+  const map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/aussie133/cmget67tt000h01rb5dhg0toq',
+    center: [116.458095, -32.934493],
+    zoom: 12
+  });
+  
+  // Data lists (used in Mapbox loading logic)
+  const speciesList = ['RTP', 'BTP', 'ANT', 'PYG'];
+  const methodList = ['eDNA', 'Visual'];
+  const timeList = ['Nov-23', 'Apr-24', 'Dec-24', 'May-25'];
+
+  // 2. DOM / Section Toggles
+  function showSection(section, event) {
+    const isMap = section === 'map';
+    document.getElementById('info-section').classList.toggle('active', !isMap);
+    document.getElementById('map-section').classList.toggle('active', isMap);
+    
+    document.querySelectorAll('.main-tabs button').forEach(btn => btn.classList.remove('active'));
+    event.target.classList.add('active');
+
+    if (isMap) {
+      // Must resize the map after its container becomes visible
+      setTimeout(() => map.resize(), 50);
+    }
+  }
+
+  function showTab(index) {
+    document.querySelectorAll('.content').forEach((content, i) => content.classList.toggle('active', i === index));
+    document.querySelectorAll('.tab').forEach((tab, i) => tab.classList.toggle('active', i === index));
+  }
+
+  function toggleMenu() {
+    document.getElementById('menu').classList.toggle('hidden');
+  }
+
+  // 3. Mapbox Logic (moved from map.on('load'))
+
+  function createCheckboxes(list, containerId, onchangeFn) {
+    const container = document.getElementById(containerId);
+    list.forEach(item => {
+      const input = document.createElement('input'); 
+      input.type = 'checkbox'; input.id = item; 
+      input.checked = true; input.onchange = onchangeFn;
+      
+      const label = document.createElement('label'); 
+      label.htmlFor = item; label.textContent = item;
+      
+      container.append(input, label, document.createElement('br'));
+    });
+  }
+
+  function updateFilters() {
+    const activeSpecies = speciesList.filter(s => document.getElementById(s).checked);
+    const activeMethods = methodList.filter(m => document.getElementById(m).checked);
+    const activeTimes = timeList.filter(t => document.getElementById(t).checked);
+    
+    speciesList.forEach(species => {
+      const visibility = activeSpecies.includes(species) ? 'visible' : 'none';
+      map.setLayoutProperty(species, 'visibility', visibility);
+      
+      if (visibility === 'visible') {
+        map.setFilter(species, ['all', 
+          ['in', ['get', 'method'], ['literal', activeMethods]], 
+          ['in', ['get', 'sample time'], ['literal', activeTimes]]
+        ]);
+      }
+    });
+  }
+
+  map.on('load', () => {
+    // Hide the menu by default on load
+    document.getElementById('menu').classList.add('hidden'); 
+    
+    createCheckboxes(speciesList, 'species-checkboxes', updateFilters);
+    createCheckboxes(methodList, 'method-checkboxes', updateFilters);
+    createCheckboxes(timeList, 'time-checkboxes', updateFilters);
+
+    // Add map interaction listeners
+    speciesList.forEach(species => {
+      map.on('click', species, e => {
+        const props = e.features[0].properties;
+        new mapboxgl.Popup().setLngLat(e.lngLat)
+          .setHTML(`<strong>${props.species}</strong><br>${props.method}<br>${props.AGE}<br>${props['sample time']}`)
+          .addTo(map);
+      });
+      map.on('mouseenter', species, () => map.getCanvas().style.cursor = 'pointer');
+      map.on('mouseleave', species, () => map.getCanvas().style.cursor = '');
+    });
+  });
+
+  // 4. Cleanup/Utility: Removed mobile vh fix (not strictly necessary with absolute positioning)
+
+  window.addEventListener('resize', () => map.resize());
+</script>
+</body>
+</html>
