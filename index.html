@@ -76,7 +76,7 @@ html, body {
 
 /* Menu Overlay */
 #menu {
-    position: absolute; top: 60px; left: 10px; z-index: 2;
+    position: absolute; top: 70px; left: 10px; z-index: 2;
     background: rgba(255,255,255,0.85); padding: 10px;
     font-family: sans-serif;
     max-height: calc(100% - 70px); /* Adjusted for better fit */
@@ -92,7 +92,7 @@ html, body {
 /* -------------------- Responsive Adjustments -------------------- */
 @media (min-width: 601px){
     /* Hamburger is always visible, but the menu is positioned near the top of the map section */
-    #menu { transform: translateX(0); top: 60px; } 
+    #menu { transform: translateX(0); top: 70px; } 
     #menu.hidden { transform: translateX(-120%); opacity: 0; } 
 }
 @media (max-width: 600px){
@@ -113,3 +113,4 @@ html, body {
 
 <div id="info-section" class="section active">
   <div class="tabs">
+
