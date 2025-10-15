@@ -224,7 +224,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     <h4>Survey Time</h4>
     <div id="time-checkboxes"></div>
     <h4>Restoration Age</h4>
-    <div id="age-checkboxes"></div>
+    <div id="AGE-checkboxes"></div>
   </div>
 </div>
 
@@ -282,6 +282,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     const speciesList=['RTP','BTP','ANT','PYG'];
     const methodList=['eDNA','visual'];
     const timeList=['Nov-23','Apr-24','Dec-24','May-25'];
+    const ageList=['Reference','1980s','1990s','2000s','2010s'];
 
     function createCheckboxes(list, containerId, onchangeFn){
       const container=document.getElementById(containerId);
@@ -294,6 +295,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     createCheckboxes(speciesList,'species-checkboxes',updateFilters);
     createCheckboxes(methodList,'method-checkboxes',updateFilters);
     createCheckboxes(timeList,'time-checkboxes',updateFilters);
+    createCheckboxes(ageList,'AGE-checkboxes',updateFilters);
 
     speciesList.forEach(species=>{
       map.on('click',species,e=>{
@@ -324,6 +326,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 </script>
 </body>
 </html>
+
 
 
 
