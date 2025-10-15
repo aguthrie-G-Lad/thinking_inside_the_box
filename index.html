@@ -316,7 +316,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
         const visibility=activeSpecies.includes(species)?'visible':'none';
         map.setLayoutProperty(species,'visibility',visibility);
         if(visibility==='visible'){
-          map.setFilter(species,['all',['in',['get','method'],['literal',activeMethods]],['in',['get','sample time'],['literal',activeTimes]]]);
+          map.setFilter(species,['all',['in',['get','method'],['literal',activeMethods]],['in',['get','sample time'],['literal',activeTimes]],['in',['get','AGE'],['literal',activeAges]]]);
         }
       });
     }
@@ -326,6 +326,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 </script>
 </body>
 </html>
+
 
 
 
