@@ -280,7 +280,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     document.getElementById('menu').classList.add('hidden'); 
     
     const speciesList=['RTP','BTP','ANT','PYG'];
-    const methodList=['eDNA','visual'];
+    const methodList=['eDNA','Visual']; // Corrected 'visual' to 'Visual' to match previous JS conventions
     const timeList=['Nov-23','Apr-24','Dec-24','May-25'];
     const ageList=['Reference','1980s','1990s','2000s','2010s'];
 
@@ -309,14 +309,23 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
     });
 
     function updateFilters(){
+        // FIX: Re-declare all active lists by checking checkbox states
       const activeSpecies = speciesList.filter(s=>document.getElementById(s).checked);
       const activeMethods = methodList.filter(m=>document.getElementById(m).checked);
       const activeTimes = timeList.filter(t=>document.getElementById(t).checked);
+        const activeAges = ageList.filter(a=>document.getElementById(a).checked); // FIX: Added missing declaration
+
       speciesList.forEach(species=>{
         const visibility=activeSpecies.includes(species)?'visible':'none';
         map.setLayoutProperty(species,'visibility',visibility);
+
         if(visibility==='visible'){
-          map.setFilter(species,['all',['in',['get','method'],['literal',activeMethods]],['in',['get','sample time'],['literal',activeTimes]],['in',['get','AGE'],['literal',activeAges]]]);
+            // FIX: Ensure correct active lists are used in the filter array
+          map.setFilter(species,['all',
+                ['in',['get','method'],['literal',activeMethods]],
+                ['in',['get','sample time'],['literal',activeTimes]],
+                ['in',['get','AGE'],['literal',activeAges]] 
+            ]);
         }
       });
     }
@@ -326,6 +335,7 @@ html, body { margin:0; padding:0; height:100%; font-family:'Segoe UI', Arial, sa
 </script>
 </body>
 </html>
+
 
 
 
